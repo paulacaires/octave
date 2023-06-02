@@ -14,3 +14,11 @@ Caso você não esteja disposto a procurar na documentação em si, é interessa
 Em resumo, o Octave é uma alternativa gratuita do software Matlab. Procurar pela documentação dos dois softwares pode ser útil, já que o Matlab pode ter mais suporte do que o Octave. 
 
 * Saiba mais sobre a diferença entre o Matlab e o Octave [aqui](https://pt.education-wiki.com/9897668-matlab-vs-octave).
+
+## Problemas Frequentes
+
+Problemas que podem acontecer com você.
+
+### Meu histograma ou imagem não está aparecendo.
+
+Certifique-se de importar as bibliotecas com o comando `pkg load image`.
