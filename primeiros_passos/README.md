@@ -44,10 +44,12 @@ Também é possível ver o resultado pela Janela de Comandos.
 ### Salvei o Arquivo e o executei, mas nada aconteceu. 
 Certifique-se que seu código tem algum comando ou função que mostre uma imagem ou alguma informação na Janela de Comandos. Se o seu código for esse:
     
-    ```
-    clear % Limpar a memória
-    close all % Fechar janelas
-    clc % Limpar tela 
-    ```
+```
+clear % Limpar a memória
+close all % Fechar janelas
+clc % Limpar tela 
+```
     
 Realmente nenhuma janela será aberta, já que não há comando para isso.
+
+Também confira se você importou as bibliotecas necessárias para mostrar imagem, com `pkg load image`.
